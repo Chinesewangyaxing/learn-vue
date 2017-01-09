@@ -13,7 +13,8 @@
                 projects: [
                     'workWithScriptLabel',
                     'workWithWebpack',
-                    'vueInstance'
+                    'vueInstance',
+                    'templateSyntax'
                 ]
             }
         },

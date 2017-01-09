@@ -6,7 +6,8 @@ module.exports = {
         app: './src/apps/main/index.js',
         workWithScriptLabel: './src/apps/workWithScriptLabel/index.js',
         workWithWebpack: './src/apps/workWithWebpack/index.js',
-        vueInstance: './src/apps/vueInstance/index.js'
+        vueInstance: './src/apps/vueInstance/index.js',
+        templateSyntax: './src/apps/templateSyntax/index.js'
     },
     output: {
         path: path.resolve(__dirname, "public"),
