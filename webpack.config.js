@@ -1,7 +1,9 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
+        app: './src/apps/main/index.js',
         workWithScriptLabel: './src/apps/workWithScriptLabel/index.js',
         workWithWebpack: './src/apps/workWithWebpack/index.js'
     },
@@ -13,11 +15,11 @@ module.exports = {
         loaders: [
             {
                 test: /.js$/,
-                loader: 'babel',
+                loader: 'babel-loader',
             },
             {
                 test: /.vue$/,
-                loader: 'vue'
+                loader: 'vue-loader'
             }
         ]
     },
