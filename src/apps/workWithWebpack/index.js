@@ -1,3 +1,4 @@
+import 'file?name=workWithWebpack.html!./index.html'
 import Vue from 'vue';
 import App from './app.vue';
 

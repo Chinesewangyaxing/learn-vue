@@ -2,7 +2,8 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        app1: './src/apps/app1/index.js'
+        workWithScriptLabel: './src/apps/workWithScriptLabel/index.js',
+        workWithWebpack: './src/apps/workWithWebpack/index.js'
     },
     output: {
         path: path.resolve(__dirname, "public"),
