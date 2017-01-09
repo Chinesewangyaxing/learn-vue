@@ -14,7 +14,7 @@
     }
 </script>
 
-<style>
+<style lang="sass">
     .message {
         color: red;
     }

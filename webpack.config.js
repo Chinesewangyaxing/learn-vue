@@ -1,9 +1,11 @@
+const path = require('path');
+
 module.exports = {
     entry: {
         app1: './src/apps/app1/index.js'
     },
     output: {
-        path: './public',
+        path: path.resolve(__dirname, "public"),
         filename: '[name].js'
     },
     module: {
@@ -23,10 +25,9 @@ module.exports = {
             'vue': 'vue/dist/vue.common.js'
         }
     },
-    webpackDevServer: {
-        contentBase: 'public/',
+    devServer: {
+        contentBase:'public/',
         public: 'public/',
-        hot: true,
         colors: true,
         progress: true,
         displayErrorDetails: true,
