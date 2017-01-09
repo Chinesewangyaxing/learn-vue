@@ -12,7 +12,8 @@
             return {
                 projects: [
                     'workWithScriptLabel',
-                    'workWithWebpack'
+                    'workWithWebpack',
+                    'vueInstance'
                 ]
             }
         },
