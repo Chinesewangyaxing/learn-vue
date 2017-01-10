@@ -18,4 +18,4 @@ empty.$watch('a', function(newVal, oldVal) {
 });
 
 // life cycle
-new Vue(LifeCycle);
+new Vue(LifeCycle).$mount('#lifeCycle');

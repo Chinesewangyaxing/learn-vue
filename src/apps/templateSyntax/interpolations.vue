@@ -17,7 +17,6 @@
 
 <script>
     export default {
-        el: '#interpolations',
         data() {
             return {
                 textValue: 'this is a msg',

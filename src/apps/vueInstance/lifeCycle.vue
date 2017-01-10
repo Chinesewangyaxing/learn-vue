@@ -9,7 +9,6 @@
         data() {
             return data;
         },
-        el: '#lifeCycle',
         created: function() {
             console.log('component is created');
         },
