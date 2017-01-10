@@ -10,7 +10,7 @@ module.exports = {
         templateSyntax: './src/apps/templateSyntax/index.js'
     },
     output: {
-        path: path.resolve(__dirname, "public"),
+        path: path.resolve(__dirname, 'public/'),
         filename: '[name].js'
     },
     module: {
@@ -31,8 +31,7 @@ module.exports = {
         }
     },
     devServer: {
-        contentBase:'public/',
-        public: 'public/',
+        contentBase: 'public',
         colors: true,
         progress: true,
         displayErrorDetails: true,
